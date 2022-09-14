@@ -14,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.homepage');
 });
 
-Route::get('/helloworld', function () {
-    return view('HelloWorld');
+Route::get('/helloworld', function () { //navigazione con metodo get, scelgo a che url puntare.
+    return view('HelloWorld');  
+    /*diciamo che questa linea è relativa alla navigazione interna
+     tra cartelle in views. Di Fatto non potrò mai salire di livello,
+     ma solo scendere usando la dot notation*/
 });
