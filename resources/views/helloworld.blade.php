@@ -1,3 +1,12 @@
+
+<?php 
+
+$bella = "bellaaaaaaaa"
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +19,9 @@
 
     <h1>Ciaone</h1>
 
-    <a href="/">TORNA ALLA HOME</a>
+    <div>{{ $bella }}</div>
+
+    <div><a href= "{{ url('/') }}" >TORNA ALLA HOME</a></div>
     
 </body>
 </html>

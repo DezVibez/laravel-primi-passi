@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <a href="/helloworld">helloworld</a>
+    <a href="{{ url('/helloworld') }}">helloworld</a>
     
 </body>
 </html>
