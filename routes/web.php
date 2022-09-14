@@ -18,7 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/helloworld', function () { //navigazione con metodo get, scelgo a che url puntare.
-    return view('HelloWorld');  
+
+    return view('HelloWorld', [ "bella" => "bellaaaaaa ciaooooo"]);  
     /*diciamo che questa linea è relativa alla navigazione interna
      tra cartelle in views. Di Fatto non potrò mai salire di livello,
      ma solo scendere usando la dot notation*/

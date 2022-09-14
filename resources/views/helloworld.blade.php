@@ -1,12 +1,4 @@
 
-<?php 
-
-$bella = "bellaaaaaaaa"
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
