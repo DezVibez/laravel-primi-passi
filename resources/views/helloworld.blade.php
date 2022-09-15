@@ -11,7 +11,7 @@
 
     <h1>Ciaone</h1>
 
-    <div>{{ $bella }}</div>
+    <div>{{ $saluto }} {{ $nome }}</div>
 
     <div><a href= "{{ url('/') }}" >TORNA ALLA HOME</a></div>
     
